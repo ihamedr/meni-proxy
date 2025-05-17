@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwoAey850e577mnXzsWvryXt3m6qtBjW3H874LPGUiBvJ895EEg16pd7SxlFACK2GNOsQ/exec'; // لینک درستت رو جایگزین کن
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxZ7DON09MUB64DNuXrf5JSX3iunExkmWZmANKnqh7zQH8vh0yS44fDzI9RhuPh8b2wEg/exec'; // لینک درستت رو جایگزین کن
 
 app.post('/proxy', async (req, res) => {
   try {
