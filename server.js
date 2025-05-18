@@ -8,7 +8,7 @@ app.use(express.json());
 
 // آدرس‌های جدا برای هر Google Apps Script
 const NON_REF_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwVtOq8vLhEh_rkH8vsZ7-TugpHQGHffNOyZM3HtB8VkmXtAw3kxuETgwMbxt3WC24yvg/exec';
-const REF_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxZn4xvyqZKH1wZTxRGBmSV6S28lbBYa8urp0AG1G5py1q1h-qm48RXL-p5y-4BGTT2/exec';
+const REF_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby11q80RS8PFy-g6eOiz6e0OeKtL0kkk_HAa-b0d3hRPuA1P3_rak2VFMoqq2kptji85Q/exec';
 
 app.post('/proxy', async (req, res) => {
   try {
